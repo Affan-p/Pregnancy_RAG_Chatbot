@@ -32,7 +32,6 @@ pregnancy_rag_chatbot/
 │   ├── pregnancy_symptoms.csv
 │   ├── medical_guidelines.txt
 │   └── ... (your medical data files)
-├── storage/                    # Local index storage (auto-generated)
 ├── requirements.txt            # Python dependencies
 ├── .env                       # Environment variables (not in repo)
 ├── .gitignore                 # Git ignore file
