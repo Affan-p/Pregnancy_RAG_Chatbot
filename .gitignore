@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# Virtual environment
+venv/
+
+# Environment variables
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SSL certificates
+*.pem
+gradio/
+.gradio/
+
+# Storage folders
+storage/
+models/
+backend/storage/
+backend/models/
+backend/.gradio/
+frontend/.gradio/
+
+# Hugging Face Space Folder
+Pregnancy_RAG_Chatbot/
+
+#Knowledge Base Folder
+knowledge_base/
+
+# Databases or other temp files
+*.sqlite3
+*.db
