@@ -8,8 +8,8 @@ import traceback
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 
-from rag_functions import get_direct_answer, get_answer_with_query_engine
-from utils import get_index
+from backend.rag_functions import get_direct_answer, get_answer_with_query_engine
+from backend.utils import get_index
 print("✅ Successfully imported RAG functions")
 
 class PregnancyRiskAgent:

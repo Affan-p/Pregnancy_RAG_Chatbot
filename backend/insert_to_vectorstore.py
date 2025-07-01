@@ -1,4 +1,4 @@
-from utils import rebuild_index
+from backend.utils import rebuild_index
 
 # This will:
 # 1. Delete all old vectors from Pinecone

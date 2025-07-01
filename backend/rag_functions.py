@@ -1,8 +1,7 @@
 import os
-import Stemmer
 import requests
-from utils import get_and_chunk_documents, llm, embed_model, get_index
-from utils import Settings 
+from backend.utils import get_and_chunk_documents, llm, embed_model, get_index
+from backend.utils import Settings 
 from llama_index.retrievers.bm25 import BM25Retriever
 from llama_index.core.postprocessor import SentenceTransformerRerank
 from llama_index.core.query_engine import RetrieverQueryEngine
